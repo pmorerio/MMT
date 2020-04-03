@@ -16,4 +16,4 @@ python examples/mmt_train_dbscan.py -ds ${SOURCE} -dt ${TARGET} -a ${ARCH} \
 	--init-1 logs/${SOURCE}TO${TARGET}/${ARCH}-pretrain-1/model_best.pth.tar \
 	--init-2 logs/${SOURCE}TO${TARGET}/${ARCH}-pretrain-2/model_best.pth.tar \
 	--logs-dir logs/${SOURCE}TO${TARGET}/${ARCH}-MMT-DBSCAN
-	# --rr-gpu
+	--rr-gpu

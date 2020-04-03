@@ -17,3 +17,4 @@ python examples/mmt_train_kmeans.py -dt ${TARGET} -a ${ARCH} --num-clusters ${CL
 	--init-1 logs/${SOURCE}TO${TARGET}/${ARCH}-pretrain-1/model_best.pth.tar \
 	--init-2 logs/${SOURCE}TO${TARGET}/${ARCH}-pretrain-2/model_best.pth.tar \
 	--logs-dir logs/${SOURCE}TO${TARGET}/${ARCH}-MMT-${CLUSTER}
+	--rr-gpu
